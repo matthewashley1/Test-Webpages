@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML simple calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Calculator.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Calculator.js"></script>
+  </head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+
+        <h1>Calculator</h1>
+
+    <div class="row">
+      <div class="col-md-3">
+        <h3>Enter a number</h3>
+        <form method="post" align="center" autocomplete="on">
+          <input type="text" id="value1" name="value1">
+        </form>
+        </div>
+
+      <div class="col-md-3">
+        <h3>Select a function</h3>
+        <form method="post" align="center" autocomplete="on">
+    										<select name="operator" id="operator" class ="styled">
+          								<option value = ""></option>
+          								<option value = "+">addition</option>
+          								<option value = "-">subtraction</option>
+    											<option value = "/">division</option>
+          								<option value = "*">multiplication</option>
+                          <option value = "^">exponent</option>
+                          <option value = "square root">square root</option>
+                          <option value = "percentage">percentage</option>
+        								</select>
+    		</form>
+      </div>
+
+      <div class="col-md-3">
+        <h3>Enter a number</h3>
+        <form method="post" align="center" autocomplete="on">
+          <input type="text" id="value2" name="value2">
+        </form>
+      </div>
+
+      <div class="col-md-3">
+        <h3>Get Total</h3>
+        <button type="btn" class="btn" onclick="myFunction1()" onDblClick="myFunction2()">Equals</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <br>
+        <p>If you selecte square root you only need a value in the first Textarea.</p><br>
+        <p>If you selecte percentage, the first Textarea will be the percent and the second Textarea will be the value you want the percentage of.</p><br>
+        <p id="demo"></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <p class="par hvr-bounce-out">* Double click equals button to clear total.</p>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
