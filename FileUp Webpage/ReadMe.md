@@ -3,7 +3,7 @@
 This is a webpage for a made up company that I 
 built for my school classes.
 
-View webpage: http://sotd.us/matthewashley/PhonegapBuildDemo/index.html 
+View webpage: http://sotd.us/matthewashley/FileUp%20Webpage/ 
 
 Integrated in some hover effects from IanLunn on GitHub.
 
