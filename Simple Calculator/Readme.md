@@ -1,6 +1,6 @@
 #Simple-Calculator
 
-This is a repository for a simple calculator I built in HTML. The purpose
+This is a webpage for a simple calculator I built in HTML. The purpose
 of this program was to learn operators in JavaScript. Also there was a
 focus on learning CSS and responsive design in HTML.
 
